@@ -10,5 +10,3 @@ export * from "./NewUserTest";
 export * from "./Tests";
 export * from "./Outcome";
 export * from "./ViewTest";
-export * from "./ProfileHead";
-export * from "./SignInCard";

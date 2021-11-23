@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Layout,
-  Hero,
-  FirstTestCard,
-  AllTests,
-  WhyTests,
-  Footer,
-} from "../components";
+import { Layout, Hero, FirstTestCard, Footer } from "../components";
 import tests from "../data/tests.json";
 
 const Home = ({ params, props }) => {
@@ -14,13 +7,6 @@ const Home = ({ params, props }) => {
     <Layout>
       <Hero text="Experience the life of" boldText="a product manager" />
       <FirstTestCard />
-      <WhyTests />
-      <AllTests
-        tests={tests}
-        hide={true}
-        title="Check our other tests 👇🏼"
-        buttonShow={true}
-      />
       <Footer />
     </Layout>
   );

@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { GlobalStyles } from "../styles/GlobalStyles";
-import UserProvider from "../context/UserProvider";
 import { useRouter } from "next/router";
 import * as gtag from "../services/gtag";
 
@@ -16,10 +15,10 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
   return (
-    <UserProvider>
+    <>
       <GlobalStyles />
       <Component {...pageProps} />
-    </UserProvider>
+    </>
   );
 }
 
