@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-
 import Link from "next/link";
-
 import siteData from "../../data/siteconfig.json";
-
 import { HeaderWrapper, LogoWrapper } from "./styles";
 import { Menu } from "../Menu";
 import { Hamburger } from "../Hamburger";
@@ -18,13 +15,6 @@ export function Header({ page }) {
 				<Link href="/" id="logo" className={"image-container"} passHref>
 					<LogoWrapper src="/logo.png" alt="Logo" />
 				</Link>
-				{/* <MobileMenu */}
-				{/* 	menuOpen={menuOpen} */}
-				{/* 	setMenuOpen={setMenuOpen} */}
-				{/* 	items={siteData} */}
-				{/* 	profile={profile} */}
-				{/* /> */}
-				{/* <Menu items={siteData} profile={profile} /> */}
 				<Hamburger
 					menuOpen={menuOpen}
 					setMenuOpen={setMenuOpen}

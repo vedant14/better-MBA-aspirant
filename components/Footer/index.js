@@ -9,26 +9,8 @@ export function Footer() {
 			<div className="Container">
 				<div>
 					<LogoWrapper src="/logo.png" alt="Logo" />
-					<p>Initially created to fight my own imposter syndrome. </p>
+					<p>Use our AI to predict the MBA College of your dreams</p>
 				</div>
-				<ul className="footer-link">
-					<li className="head">Pages</li>
-					<li>
-						<Link href="/#">Home</Link>
-					</li>
-					<li>
-						<Link href="/first-test">New? Start here</Link>
-					</li>
-					<li>
-						<Link href="/explore-more">View all tests</Link>
-					</li>
-				</ul>
-				<ul className="footer-link">
-					<li className="head">Others</li>
-					<li>Templates (coming soon)</li>
-				</ul>
-
-				<SubscribeForm />
 			</div>
 		</FooterWrapper>
 	);

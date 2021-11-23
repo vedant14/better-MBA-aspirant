@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Wrapper } from "./styles";
-import { supabase } from "../../services/supabaseClient";
+// import { supabase } from "../../services/supabaseClient";
 
 export function SubscribeForm() {
     const [email, setEmail] = useState("");
@@ -12,23 +12,23 @@ export function SubscribeForm() {
         setError(null);
     };
 
-    const handleFormSubmit = (event) => {
-        event.preventDefault();
-        const isValid = validateEmail(email);
-        if (isValid) {
-            setError(null);
-            setSubmit(true);
-            uploadEmail();
-        } else {
-            setError("Please enter a valid email address");
-        }
-    };
+    // const handleFormSubmit = (event) => {
+    //     event.preventDefault();
+    //     const isValid = validateEmail(email);
+    //     if (isValid) {
+    //         setError(null);
+    //         setSubmit(true);
+    //         uploadEmail();
+    //     } else {
+    //         setError("Please enter a valid email address");
+    //     }
+    // };
 
-    const uploadEmail = async () => {
-        const { data, error } = await supabase
-            .from("subscriptions")
-            .insert([{ email: email }]);
-    };
+    // const uploadEmail = async () => {
+    //     const { data, error } = await supabase
+    //         .from("subscriptions")
+    //         .insert([{ email: email }]);
+    // };
 
     const validateEmail = (currEmail) => {
         const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -53,9 +53,7 @@ export function SubscribeForm() {
                         className="input-email"
                     />
                     {error && <li className="error">{error}</li>}
-                    <button onClick={(event) => handleFormSubmit(event)}>
-                        Subscribe
-                    </button>
+                    <button>Subscribe</button>
                 </>
             )}
             <p>

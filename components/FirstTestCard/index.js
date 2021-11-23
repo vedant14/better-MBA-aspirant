@@ -13,14 +13,11 @@ export function FirstTestCard({ setSelectedRole, setSelectedAnswer }) {
     <Wrapper className="Container">
       <div>
         <h1>
-          <span className="bold">Take your first test</span>
+          <span className="bold">Ready for predictions?</span>
         </h1>
-        <h3>
-          We’ve prepared a short quiz to test if you have the necessary
-          qualities to become a product manager
-        </h3>
+        <h3>Have you appeared or planning to appear for CAT?</h3>
         <Link href="/first-test" passHref>
-          <button>Take the test</button>
+          <button>Next</button>
         </Link>
       </div>
     </Wrapper>
