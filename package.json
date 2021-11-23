@@ -1,0 +1,25 @@
+{
+  "name": "better-product-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.3",
+    "dotenv": "^10.0.0",
+    "graphql-request": "^3.5.0",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.21.1",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "^7.32.0"
+  }
+}

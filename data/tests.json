@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ckt7jgaq84ng80c91q1n8289d",
+    "title": "Are you a great product manager?",
+    "slug": "/are-you-a-great-product-manager",
+    "description": "A light-hearted quiz based on a Twitter thread by Peter Yang. Wrong answers only",
+    "coverImage": {
+      "url": "https://media.graphcms.com/6oqYnbvkTkCBjF4qYm15"
+    }
+  },
+  {
+    "id": "ckt725rgo3uyq0d3986pp9y8b",
+    "title": "Good & bad questions to ask in user interviews",
+    "slug": "/good-question-bad-question",
+    "description": "It's essential to talk to your users, but how you do it matters just as much",
+    "coverImage": {
+      "url": "https://media.graphcms.com/5urSIrXCTwmbDD76gef9"
+    }
+  },
+  {
+    "id": "ckwaygpk8id0u0b89e6ijv76l",
+    "title": "Life of a PM at Razorpay ",
+    "slug": "/life-of-a-pm-at-razorpay",
+    "description": "Razorpay has launched a great many successful products in the recent few years. Lets try to see how their product team did that.",
+    "coverImage": {
+      "url": "https://media.graphcms.com/Z8kWeB4TW1GHUFm9WxMQ"
+    }
+  }
+]
