@@ -6,6 +6,7 @@ export const colors = {
   primaryBlue: "#0069FF",
   lightBlue: "#66A5FF",
   brandYellow: "#FFE866",
+  primaryPurple: "#6372FF",
   white: "#FAFAFA",
 };
 
